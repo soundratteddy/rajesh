@@ -6,7 +6,7 @@ int main(void)
 
 {
 
-int n,i,res,a[20],t=0;
+  int n,i,res,a[20],t=0;
 
 char rn[10];
 

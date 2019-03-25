@@ -2,7 +2,7 @@
 #include<string.h>
 int main(void) 
 {
-int i,k,len,n[7];
+int i, k,len,n[7];
 char roman[7];
 scanf("%[^\n]s",roman);
 len=strlen(roman);
@@ -21,7 +21,7 @@ for(i=0;i<len;i++)
 	else if(roman[i]=='D')
 	n[i]=500;
 	else if(roman[i]=='M')
-	n[i]=1000;
+	 n[i]=1000;
 	else
 	printf("invalid");
 }

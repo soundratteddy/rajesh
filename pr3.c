@@ -7,9 +7,9 @@ int temp=n;
 for(i=1;temp!=0;i++)
 {
     a=temp%10;
-    rev=rev*10+a;
+   rev=rev*10+a;
     temp=temp/10;
 }
-printf("%d",rev);
+ printf("%d",rev);
 return 0;
 }

@@ -4,7 +4,7 @@ int main()
 {
 	int n,k,i,j;
   	char a[10],temp;
-	scanf("%s",a);
+	  scanf("%s",a);
 	n=strlen(a);
 	scanf("%d",&k);
 	for(i=0;i<k;i++)
